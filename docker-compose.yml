@@ -9,7 +9,7 @@ services:
       - 3307:3306
     environment:
       MYSQL_ROOT_PASSWORD: admin
-      MYSQL_DATABASE: proposta
+      MYSQL_DATABASE: transacao
 
   zookeeper:
     image: "confluentinc/cp-zookeeper:5.2.1"
